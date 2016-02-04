@@ -50,7 +50,7 @@ public class GetWeather extends AppCompatActivity {
         imm.hideSoftInputFromWindow(editableView.getWindowToken(), 0);
     }
 
-    public void translateText(View v) {
+    public void fetchWeather(View v) {
         TextView sourceTextView = (TextView) findViewById(R.id.zipCode);
 
         sourceText = sourceTextView.getText().toString();
