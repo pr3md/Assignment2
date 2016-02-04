@@ -43,7 +43,7 @@
         android:layout_gravity="center_horizontal"
         style="@style/Base.Widget.AppCompat.Button"
         android:text="Get Weather"
-        android:onClick="translateText"
+        android:onClick="fetchWeather"
         android:textColor="#ba6349"
         android:layout_marginTop="20dp" />
 
